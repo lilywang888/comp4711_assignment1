@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="view/user_quiz_view.js"></script>
+    <script src="controller/user_quiz_controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title> Student Take Exam Page </title>
+</head>
+ 
+<body onload="onload()">
+
+    <div class="quizArea">
+
+    </div>
+    
+    <input type='button' id ='user_quiz_submit' class='button' value='submit' onClick='submit_quiz()'/>
+    <input type='button' id ='user_quiz_logout' class='button' value='Logout' onClick='logout_quiz()'/>
+    
+    <p  id="score"> After submit quiz,Score show here </p>
+
+</body>
+</html>
