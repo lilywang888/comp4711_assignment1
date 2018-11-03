@@ -1,0 +1,46 @@
+#add_question_button { padding:4px 16px;  margin-left:30px; background-color:#F0F0F0; border-radius:11px;  font-size:15px; cursor: pointer; }
+.login_body{ background:#483D8B no-repeat center 0px;}
+.login_tit{ margin:auto; margin-top:170px; text-align:center;color:#CCC; font-size: 20px; width:500px; padding-bottom:20px;}
+.login_wrap{ width:220px; padding:30px 50px 0 330px; height:220px; background:#fff url(../img/login_bk1.jpg) no-repeat 30px 40px; margin:auto; overflow: hidden;}
+.login_table{width:100%; border:0; cellspacing:0; cellpadding:0;}
+.login_input{ display:block;width:210px;}
+.login_username_label{height:25px; valign:bottom}
+.login_password_label{height:35px; valign:bottom}
+.login_user{ background: url(../img/input_icon_1.png) no-repeat 200px center; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.login_password{ background: url(../img/input_icon_2.png) no-repeat 200px center; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.login_btn{ height:35px; valign:bottom; background:#40454B; box-shadow:none; text-shadow:none; color:#fff; border:none;line-height:26px; font-size:14px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.login_btn:hover{ background:#333; color:#fff;}
+.copyright{ margin:auto; margin-top:10px; text-align:center; width:370px; color:#CCC}
+
+.admin_h2 {text-align: center;}
+.admin_addquestion_button {hight:120px; padding:15px; display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;}
+#admin_addquestion_button { padding:4px 16px;  margin-left:5px; background-color:#F0F0F0; border-radius:11px;  font-size:15px; cursor: pointer; }
+.adminquestion_area table{ border-collapse: collapse;}
+.adminquestion_area th{ border:1px solid #ccccff; padding: 5px; }
+.adminquestion_area td{ text-align: left; border:1px solid #ccccff; padding: 5px; text-align: center;}
+#adminquestion_save_button { padding:4px 16px;  margin-left:5px; background-color:#F0F0F0; border-radius:11px;  font-size:15px; cursor: pointer; }
+.adminquestion_edit_delete { cursor:pointer; text-decoration:underline; color: blue; }
+.adminquestion_area{ display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+.admin_addquestion_area { display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+.admin_editquestion_area { display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+.admin_addquestions_table tr td input{size:"100";}
+
+.users_h2 {text-align: center;}
+.users_button {hight:120px; padding:15px; display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;}
+#users_add_button { padding:4px 16px;  margin-left:5px; background-color:#F0F0F0; border-radius:11px;  font-size:15px; cursor: pointer; }
+.users_area table{ border-collapse: collapse;}
+.users_area th{ border:1px solid #ccccff; padding: 5px; }
+.users_area td{ border:1px solid #ccccff; padding: 5px; text-align: center;}
+#users_save_button { padding:4px 16px;  margin-left:5px; background-color:#F0F0F0; border-radius:11px;  font-size:15px; cursor: pointer; }
+.users_edit_delete { cursor:pointer; text-decoration:underline; color: blue; }
+.users_area{ display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+.users_add_area { display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+
+#score { color:red; }
+
+.scores_h2 {text-align: center;}
+.scores_area { display: -webkit-flex;-webkit-justify-content: center; -webkit-align-items: center;  }
+.scores_area table{ border-collapse: collapse;}
+.scores_area th{ border:1px solid #ccccff; padding: 5px; background:#CCCCCC; cursor:pointer;}
+.scores_area td{ border:1px solid #ccccff; padding: 5px; text-align: center;}
+.scores_title {}
